@@ -1,0 +1,139 @@
+cv:
+  name: "Md. Atik Mouhtasim"
+  headline: "CSE Graduate | Software Engineering, AI Systems & Tech Leadership"
+  location: "Banasree, Dhaka, Bangladesh"
+  email: "mdatikmouhtasim@gmail.com"
+  phone: "+8801719345888"
+  website: https://atikrahi.dev/
+  social_networks:
+    - network: GitHub
+      username: helix-77
+    - network: LinkedIn
+      username: mdatik2003118
+
+  sections:
+    summary:
+      - >-
+        Computer Science and Engineering graduate from RUET with a solid understanding of Computer Science fundamentals, cloud architecture, and artificial intelligence. Experienced in full-stack development using Flutter, React Native, Next.js, Supabase, and Firebase, with a strong track record of leadership as General Secretary of RUET Computing Society. A quick learner and collaborative team player, ready to contribute to innovative projects and excel in Technology Graduate Trainee and Associate Engineering roles.
+
+    education:
+      - institution: "Rajshahi University of Engineering & Technology"
+        area: "Computer Science and Engineering (CSE)"
+        degree: "B.Sc."
+        start_date: "2021-12"
+        end_date: "2026-08"
+        location: "Rajshahi, Bangladesh"
+        summary: "CGPA: 3.53/4.00"
+      - institution: "Notre Dame College"
+        area: "Science"
+        degree: "HSC"
+        start_date: "2018"
+        end_date: "2020"
+        location: "Dhaka, Bangladesh"
+        summary: "GPA: 5.00/5.00"
+      - institution: "Thakurgaon Government Boys High School"
+        area: "Science"
+        degree: "SSC"
+        start_date: "2010"
+        end_date: "2018"
+        location: "Thakurgaon, Bangladesh"
+        summary: "GPA: 5.00/5.00"
+
+    experience:
+      - company: "RUET Computing Society"
+        position: "General Secretary"
+        start_date: "2025-11"
+        end_date: "2026-09"
+        location: "Rajshahi, Bangladesh"
+        highlights:
+          - "Directed executive planning, resource allocation, and operations across university-wide programming and technology events."
+          - "Mobilized and managed responsibilities across executive committees to maintain an active, productive society environment."
+          - "Oversaw project timelines and resolved operational bottlenecks to ensure on-time delivery of technical and administrative milestones."
+
+      - company: "Texlab IT"
+        position: "Industrial Trainee"
+        start_date: "2025-03"
+        end_date: "2025-04"
+        location: "Rajshahi, Bangladesh"
+        highlights:
+          - "Gained hands-on experience in professional software engineering, system workflows, and production best practices."
+          - "Collaborated across teams using GitHub for version control, issue tracking, and Slack for asynchronous communication."
+          - "Strengthened foundations in professional workplace ethics, agile team coordination, and software development standards."
+
+    projects:
+      - name: "[Asteroid Odyssey](https://github.com/helix-77/Asteroid-Odyssey)"
+        start_date: "2025-09"
+        end_date: "2025-10"
+        summary: "*Tech Stack: Next.js, TypeScript, Three.js, D3.js, NASA APIs*"
+        highlights:
+          - "Led a 5-member team as Team Lead and Lead Developer for the NASA Space Apps Challenge 2025."
+          - "Engineered an interactive 3D asteroid-impact simulator visualizing 100+ celestial bodies and modeling mitigation strategies over 50 years."
+          - "Integrated NASA NEO, JPL Small-Body Database, Sentry, and Fireball REST APIs with responsive exploration and threat analysis."
+
+      - name: "[MediTrack](https://github.com/helix-77/MediTrack)"
+        start_date: "2026-08"
+        end_date: "2026-09"
+        summary: "*Tech Stack: Flutter, Dart, Firebase, ML Kit, Gemini, SQLite*"
+        highlights:
+          - "Built a bilingual mobile health application for prescription scanning, dosage scheduling, adherence tracking, and refill alerts."
+          - "Architected a hybrid pipeline combining on-device ML Kit OCR with Gemini API extraction, schema validation, and user review."
+          - "Implemented Firebase authentication and persistence, local background notifications, an offline SQLite catalog, and an AI assistant."
+
+      - name: "[WasteGuard](https://github.com/helix-77/WasteGuard)"
+        start_date: "2025-05"
+        end_date: present
+        summary: "*Tech Stack: React Native (Expo), TypeScript, Supabase, NativeWind*"
+        highlights:
+          - "Developed a cross-platform food-waste reduction app for pantry inventory, expiry alerts, waste analytics, and recipe suggestions."
+          - "Integrated Supabase authentication and cloud database, push notification services, and TanStack Query for server-state caching."
+
+      - name: "[Prayer.time](https://github.com/helix-77/Prayer.time)"
+        date: "2026-02"
+        summary: "*Tech Stack: React, TypeScript, Vite, Tailwind CSS*"
+        highlights:
+          - "Engineered a privacy-first browser extension for prayer schedules and Ramadan countdowns without continuous GPS tracking."
+          - "Integrated adhan calculation engine, OpenStreetMap Nominatim city search, 11 calculation methods, and per-prayer adjustments."
+          - "Implemented service-worker alarms, cross-tab notifications, and published production extensions for Edge, Firefox, and Chromium."
+
+      - name: "[UniCompanion](https://github.com/helix-77/UniCompanion)"
+        date: "2024"
+        summary: "*Tech Stack: React Native (Expo), Supabase, TypeScript, NativeWind*"
+        highlights:
+          - "Built a cross-platform university management application supporting authenticated workflows for both instructors and students."
+          - "Delivered attendance tracking with CSV/Excel export, course content and assessment management, and in-app messaging."
+          - "Implemented Google OAuth, secure cloud storage, and responsive interface components using NativeWind."
+
+    research:
+      - name: "MonoTTC: Object-Level Time-to-Contact Estimation under Limited Supervision"
+        date: "2026-08"
+        summary: "B.Sc. thesis supervised by Farjana Parvin, Department of CSE, RUET"
+        highlights:
+          - "Engineered a two-stage PyTorch pipeline combining self-supervised ResNet-18 and PoseNet geometry pretraining with ROI adaptation."
+          - "Derived audited metric TTC ground truth from nuScenes 3D tracks, calibrated cameras, and ego poses using a 25% label budget."
+          - "Achieved 0.8667 ± 0.0256 AUROC for critical collision risk classification (TTC ≤ 2.0 s) across 87 scene-disjoint validation splits."
+
+    skills:
+      - label: "Programming Languages"
+        details: "Python, JavaScript, TypeScript, Dart, C++, C, SQL, PHP, HTML/CSS"
+      - label: "Web & Mobile Development"
+        details: "React, Next.js, React Native (Expo), Flutter, Three.js, Tailwind CSS"
+      - label: "Backend & Databases"
+        details: "Supabase (PostgreSQL), Firebase, SQLite, MySQL, Laravel, RESTful APIs"
+      - label: "AI & Data Science"
+        details: "PyTorch, torchvision, Scikit-learn, OpenCV, NumPy, SciPy, Seaborn"
+      - label: "Tools & Methodologies"
+        details: "Git, GitHub, Linux, Docker, Postman, Vite, Agile/Scrum, Team Leadership"
+      - label: "Agents"
+        details: OpenCode TUI, Codex-CLI, Claude Code, Deepseek-harness, OpenChamber
+
+    certifications:
+      - bullet: "Industrial Trainee, Texlab IT — [Certificate](https://drive.google.com/file/d/1skMye3X4RtOzmVUftdvk_J23vx2N69bT/view?usp=sharing)"
+      - bullet: "EDGE Course (PHP & Laravel), Bangladesh Computer Council and RUET — [Certificate](https://drive.google.com/file/d/1IdImGvJciYqiqodXvjmYWNethrYLvozw/view?usp=sharing)"
+      - bullet: "Supervised Machine Learning: Regression and Classification, Coursera (DeepLearning.AI) — [Certificate](https://www.coursera.org/account/accomplishments/verify/UKGEVW72STB3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)"
+      - bullet: "Web Development Bootcamp, Programming Hero — [Certificate](https://drive.google.com/file/d/1OG7OChaf5s1IydVR6wY-qutZ7pN_wERw/view?usp=drive_link)"
+
+    references:
+      - name: "Farjana Parvin"
+        summary: "Assistant Professor, Department of CSE, RUET | Email: farjana.sumona94@gmail.com | Phone: +8801739497360"
+      - name: "Md. Azmain Yakin Srizon"
+        summary: "Assistant Professor, Department of CSE, RUET | Email: azmainsrizon@cse.ruet.ac.bd | Phone: +8801790187189"

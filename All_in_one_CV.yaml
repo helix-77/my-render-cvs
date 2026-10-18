@@ -1,0 +1,190 @@
+cv:
+  name: "Md. Atik Mouhtasim"
+  headline: "Aspiring AI/ML Researcher | Web & Mobile App Developer"
+  location: Banasree, Dhaka, Bangladesh
+  email: "mdatikmouhtasim@gmail.com"
+  phone: "+8801719345888"
+  social_networks:
+    - network: GitHub
+      username: helix-77
+    - network: LinkedIn
+      username: mdatik2003118
+
+  sections:
+    summary:
+      - >-
+        Computer Science student specializing in AI systems, dataset quality, and cross-platform application development. Hands-on experience validating autonomous-driving datasets for self-supervised monocular TTC estimation and building web and mobile applications using Flutter, React Native, Next.js, Firebase, and Supabase.
+
+    education:
+      - institution: "Rajshahi University of Engineering & Technology"
+        area: Computer Science and Engineering (CSE)
+        degree: "B.Sc."
+        start_date: "2021-12"
+        end_date: 2026-08
+        location: "Rajshahi"
+        summary: "CGPA: 3.53/4.0"
+      - institution: Notre Dame College
+        area: Science
+        degree: "HSC"
+        start_date: "2018"
+        end_date: "2020"
+        location: "Dhaka"
+        summary: "GPA: 5.0/5.0"
+      - institution: "Thakurgaon Government Boys High School"
+        area: ""
+        degree: "SSC"
+        start_date: "2010"
+        end_date: "2018"
+        location: "Thakurgaon"
+        summary: "GPA: 5.0/5.0"
+
+    experience:
+      - company: "RUET Computing Society"
+        position: "General Secretary"
+        start_date: "2025-11"
+        end_date: "2026-09"
+        highlights:
+          - "Led execution of plans by distributing responsibilities and
+            managing manpower across multiple activities."
+          - "Handled internal coordination and issue resolution to maintain a
+            productive club environment."
+          - "Oversaw timelines to ensure all administrative and technical
+            activities are completed on time."
+        location:
+        summary:
+      - company: "Texlab IT"
+        position: "Industrial Trainee"
+        start_date: "2025-03"
+        end_date: "2025-04"
+        highlights:
+          - "Gained hands-on experience in a professional software development environment"
+          - "Learned collaboration, issue tracking, and async communication using GitHub and Slack"
+          - "Developed a strong foundation in professionalism, workplace ethics and industry standard workflows"
+
+    projects:
+      - name: "[MediTrack](https://github.com/helix-77/MediTrack)"
+        start_date: 2026-08
+        end_date: 2026-09
+        summary: "*Tech Stack: Flutter, Dart, Firebase, ML Kit, Gemini, OpenRouter*"
+        highlights:
+          - "Built a bilingual medicine-management app for prescription scanning,
+            dosage scheduling, adherence tracking, stock and refill alerts, and
+            family profiles."
+          - "Designed a two-stage prescription pipeline combining on-device ML
+            Kit OCR with Gemini extraction, schema validation, and mandatory user
+            review before medication data is saved."
+          - "Implemented Firebase authentication and persistence, local reminders,
+            an offline SQLite medicine catalog, and **a context-aware AI assistant**."
+
+      - name: "[WasteGuard](https://github.com/helix-77/WasteGuard)"
+        start_date: 2025-05
+        end_date: present
+        summary: "*Tech Stack: React Native (Expo), TypeScript, Supabase, NativeWind*"
+        highlights:
+          - "Built a cross-platform food-waste management app for pantry inventory,
+            expiry tracking, waste analytics, and recipe suggestions based on
+            soon-to-expire ingredients."
+          - "Implemented cloud synchronization, push notifications, Supabase
+            authentication and data storage, and TanStack Query server-state
+            management."
+
+      - name: "[Asteroid Odyssey](https://github.com/helix-77/Asteroid-Odyssey)"
+        start_date: 2025-09
+        end_date: 2025-10
+        highlights:
+          - "Led a five-person team as team leader and lead developer for NASA
+            Space Apps 2025."
+          - "Built a 3D asteroid-impact simulator that explores more than 100
+            objects and models mitigation strategies and global effects over a
+            50-year timeline."
+          - "Integrated NASA NEO, JPL Small-Body Database, Sentry, and Fireball
+            data with interactive visualizations for orbital exploration, threat
+            assessment, and impact analysis."
+        summary: "*Tech Stack: NASA APIs, Next.js, TypeScript, Three.js, D3.js*"
+
+      - name: "[Prayer.time](https://github.com/helix-77/Prayer.time)"
+        date: 2026-02
+        summary: "*Tech Stack: React, TypeScript, Vite, Tailwind CSS*"
+        highlights:
+          - "Built a privacy-first browser extension for prayer-time and Ramadan
+            countdowns without continuous GPS tracking."
+          - "Integrated prayer-time calculation through adhan, OpenStreetMap
+            Nominatim city search, 11 calculation methods, and per-prayer time
+            calibration."
+          - "Implemented service-worker alarms, cross-tab browser notifications,
+            and in-app alerts; published releases for Edge, Firefox, and Chromium
+            browsers."
+
+      - name: "[UniCompanion](https://github.com/helix-77/UniCompanion)"
+        date: 2024
+        highlights:
+          - "Built a cross-platform academic management application for students
+            and teachers using React Native, Expo, and Supabase."
+          - "Implemented attendance tracking with CSV and Excel export, class and
+            content management, CT and lab assessments, course enrollment, and
+            in-app messaging."
+          - "Integrated Google OAuth, cloud storage, and NativeWind interface
+            components to support authenticated teacher and student workflows."
+        summary: "*Tech Stack: React Native (Expo), Supabase, TypeScript, NativeWind*"
+
+    research:
+      - name: "MonoTTC: Object-Level Time-to-Contact Estimation under Limited
+          Supervision"
+        date: 2026-08
+        summary: "B.Sc. thesis supervised by Farjana Parvin, Department of CSE,
+          RUET"
+        highlights:
+          - "Developed a two-stage PyTorch pipeline combining self-supervised
+            ResNet-18 and PoseNet geometry pretraining on temporal nuScenes
+            triplets with ROI-supervised TTC adaptation using frozen RAFT-Small."
+          - "Derived audited metric TTC targets from nuScenes 3D tracks,
+            calibrated ego poses, and camera geometry using scene-disjoint splits,
+            a 25% label budget, and a single 16 GB GPU."
+          - "Across five seeds and 87 validation scenes, geometric consistency
+            produced a 5.33% descriptive reduction in scene-balanced relative TTC
+            error from 0.4131 ± 0.0186 to 0.3911 ± 0.0178."
+          - "Reduced absolute MAE for urgent 0–2 s TTC targets from 2.1075 s to
+            1.6826 s; the paired 95% confidence interval included zero, so the
+            overall improvement was not statistically significant."
+          - "Achieved AUROC of 0.8667 ± 0.0256 and AUPRC of 0.2080 ± 0.0493 for
+            oracle risk classification of critical targets with TTC ≤ 2.0 s."
+
+    skills:
+      - label: Programming Languages
+        details: Python, JavaScript, TypeScript, Dart, C++, HTML, CSS, PHP
+      - label: "AI/ML"
+        details: "PyTorch, torchvision, Kornia, NumPy, SciPy, Scikit-learn,
+          OpenCV, Seaborn"
+      - label: "Frontend"
+        details: React, Next.js, React Native (Expo), Flutter, Three.js, D3.js
+      - label: "Backend"
+        details: "Supabase/PostgreSQL, Firebase, SQLite, MySQL, Laravel"
+      - label: "Tools"
+        details: Linux, Docker, Git, GitHub, Tectonic
+      - label: "Agents"
+        details: OpenCode TUI, Codex-CLI, Claude Code, Deepseek-harness, OpenChamber
+
+    certifications:
+      - bullet: "Industrial Trainee, Texlab IT —
+          [Certificate](https://drive.google.com/file/d/1skMye3X4RtOzmVUftdvk_J23vx2N69bT/view?usp=sharing)"
+      - bullet:
+          "EDGE Course (PHP, Laravel), Bangladesh Computer Council and RUET —
+          [Certificate](https://drive.google.com/file/d/1IdImGvJciYqiqodXvjmYWNethrYLvozw/view?usp=sharing)"
+      - bullet:
+          "Supervised Machine Learning: Regression and Classification, Coursera —
+          [Certificate](https://www.coursera.org/account/accomplishments/verify/UKGEVW72STB3?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)"
+      - bullet: "Web Development Bootcamp, Programming Hero —
+          [Certificate](https://drive.google.com/file/d/1OG7OChaf5s1IydVR6wY-qutZ7pN_wERw/view?usp=drive_link)"
+
+    references:
+      - name: "Farjana Parvin"
+        summary:
+          "Assistant Professor, Department of CSE, RUET | Email: farjana.sumona94@gmail.com | Phone:
+          +8801739497360"
+      - name: "Md. Azmain Yakin Srizon"
+        summary: "Assistant Professor, Department of CSE, RUET | Email:
+          azmainsrizon@cse.ruet.ac.bd | Phone: +8801790187189"
+
+  website: https://atikrahi.dev/
+  photo:
+  custom_connections: []
